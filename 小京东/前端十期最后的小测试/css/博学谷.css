@@ -1,0 +1,629 @@
+.topBanner {
+	height: 31px;
+	background-color: #F7F7F7;
+	font-size: 13px;
+	line-height: 31px;
+}
+.topBanner a {
+	font-weight:bold;
+}
+.shortcut {
+	height: 116px;
+	// background-color:red;
+}
+.shortcut .logo {
+	float: left;
+	padding-top:21px;
+}
+.shortcut-right {
+	float: right;
+	margin-top: 34px;
+}
+.shortcut-right li {
+	float: left;
+	font-size:13px;
+	margin-left: 15px;
+}
+.shortcut-bottom {
+	float: left;
+	font-size:17px;
+	font-weight:bold;
+	margin-top:78px;
+}
+.shortcut-bottom li {
+	float: left;
+	margin-right: 35px;
+	line-height: 38px;
+}
+.search-aide {
+	float: right;
+	position: relative;
+	margin-top: 25px;
+	width: 210px;
+	height: 36px;
+
+
+}
+.search-aide input:first-child {
+	float: left;
+	width: 130px;
+	height: 34px;
+	padding-left: 15px;
+	font-size:15px;
+	border-radius:25px 0 0 25px;
+	border: 1px solid #ccc;
+	border-right-color: transparent;
+	margin-right:-1px
+}
+.search-aide i {
+	position: absolute;
+	top:7px;
+	left:142px;
+	color: #ccc;
+	font-size:24px;
+}
+.search-aide input:last-child {
+	float: left;
+	width: 63px;
+	height: 36px;
+	margin-left:-1px;
+	background-color:#fff;
+	border-radius:0 25px 25px 0;
+	border: 1px solid #ccc;
+	border-left-color: transparent;
+}
+.main {
+	height: 320px;
+	width: 100%;
+	background-color:blue;
+}
+.main .bg a {
+	position: absolute;
+	height: 320px;
+	width: 100%;
+	background: url(../img/主题背景.jpg) center no-repeat ;
+	// z-index: 1;
+}
+.main-content {
+	height: 320px;
+	// z-index: 5;
+}
+.main-left {
+	height: 470px;
+	width: 230px;
+	position: absolute;
+	left: 0;
+	top:-38px;
+	background-color:rgba(0,0,0,.2);
+	border-radius:6px;
+}
+.main-left li:first-child {
+	height: 38px;
+	line-height: 38px;
+	font-size:17px;
+	color:#fff;
+	text-align: center;
+	background-color:#4BAA47;
+	border-radius:6px 6px 0 0;
+}
+.main-left .order {
+	margin-top:21px;
+}
+.main-left li {
+	line-height: 42px;
+
+}
+.main-left li:hover {
+	background-color:rgba(0,0,0,.5);
+}
+.main-left li a {
+	color:#fff;
+	font-size:14px;
+	margin-left:32px;
+}
+.main-left li span {
+	float: right;
+	font-size:14px;
+	margin-right:52px;
+	color:#fff;
+	font-weight:bold;
+} 
+.main .glide {
+	position: absolute;
+	bottom: 26px;
+	left: 623px;
+}
+.main .glide li {
+	float: left;
+	height: 12px;
+	width: 12px;
+	border-radius:50%;
+	background-color:rgba(0,0,0,.5);
+	margin-right:15px;
+}
+.main .glide li:first-child {
+	background-color:rgba(255,255,255,.5);
+}
+.free {
+	height: 140px;
+}
+.free .one {
+	float: left;
+	height: 100px;
+	width: 230px;
+	background-color:#48BDB2;
+	margin-left:240px;
+	margin-top:10px;
+	border-radius:6px;
+	overflow: hidden;
+	color:#fff;
+}
+.free .one a {
+	float: left;
+	height: 70px;
+	width: 54px;
+	background:url(../img/限时免费课.png);
+	margin: 15px 0 0 18px;
+}
+.free .one .state {
+	float: left;
+	height: 71px;
+	width: 118px;
+	margin-top:10px;
+	margin-left:13px;
+}
+.free .one .state p {
+	font-size:15px;
+	line-height: 38px;
+}
+.free .one .state span {
+	line-height: 19px;
+	font-size:13px;
+}
+.free .two,
+.free .three {
+	float: left;
+	height: 100px;
+	width: 230px;
+	background-color:#48BDB2;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:6px;
+	overflow: hidden;
+	color:#fff;
+}
+.free .two a,
+.free .three a,
+.free .four a {
+	float: left;
+	height: 70px;
+	width: 54px;
+	background:url(../img/java图标.png);
+	margin: 15px 0 0 18px;
+}
+.free .two .state,
+.free .three .state,
+.free .four .state  {
+	float: left;
+	height: 71px;
+	width: 118px;
+	margin-top:10px;
+	margin-left:13px;
+}
+.free .two .state p,
+.free .three .state p,
+.free .four .state p {
+	font-size:15px;
+	line-height: 38px;
+}
+.free .two .state span,
+.free .three .state span,
+.free .four .state span  {
+	line-height: 19px;
+	font-size:13px;
+}
+.free .four {
+	float: right;
+	height: 100px;
+	width: 230px;
+	background-color:#48BDB2;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:6px;
+	overflow: hidden;
+	color:#fff;
+}
+.hotlesson {
+	height: 315px;
+}
+.hotlesson-left {
+	float: left;
+	width: 690px;
+	height: 316px;
+	background-color:#fff;
+	border-radius:6px;
+}
+.hotlesson-left h2 {
+	margin-left:50px;
+	margin-top:21px;
+	line-height: 40px;
+}
+.hotlesson-left .greedy {
+	float: left;
+	height: 233px;
+	width: 286px;
+	margin-left:50px;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+.hotlesson-left .greedy .greedy-top {
+	height: 162px;
+	width: 286px;
+}
+.hotlesson-left .greedy .greedy-top a {
+	display: block;
+	height: 162px;
+	width: 286px;	
+}
+.hotlesson-left .greedy .greedy-top a img 
+{
+	height: 162px;
+	width: 286px;
+	border-radius: 6px 6px 0 0;
+}
+.hotlesson-left .greedy .greedy-bottom {
+	height: 72px;
+	width: 286px;
+}
+.hotlesson-left .greedy .greedy-bottom p:first-child {
+	
+	margin-top:19px;
+}
+.hotlesson-left .greedy .greedy-bottom 
+.hei {
+	margin-left: 10px;
+	font-size：15px;
+	font-weight:bold;
+}
+.hotlesson-left .greedy .greedy-bottom .tow,
+ .hotlesson-left .greedy .greedy-bottom .four{
+	float: right;
+	margin-right:10px;
+}
+.hotlesson-left .greedy .greedy-bottom .time {
+	margin-left: 10px;
+	font-size：13px;
+}
+
+
+
+
+.hotlesson-left .greedy2 {
+	float: left;
+	height: 233px;
+	width: 286px;
+	margin-left:20px;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+.hotlesson-left .greedy2 .greedy-top {
+	height: 162px;
+	width: 286px;
+}
+.hotlesson-left .greedy2 .greedy-top a {
+	display: block;
+	height: 162px;
+	width: 286px;	
+}
+.hotlesson-left .greedy2 .greedy-top a img 
+{
+	height: 162px;
+	width: 286px;
+	border-radius: 6px 6px 0 0;
+}
+.hotlesson-left .greedy2 .greedy-bottom {
+	height: 72px;
+	width: 286px;
+}
+.hotlesson-left .greedy2 .greedy-bottom p:first-child {
+	
+	margin-top:19px;
+}
+.hotlesson-left .greedy2 .greedy-bottom 
+.hei {
+	margin-left: 10px;
+	font-size：15px;
+	font-weight:bold;
+}
+.hotlesson-left .greedy2 .greedy-bottom .tow,
+ .hotlesson-left .greedy2 .greedy-bottom .four{
+	float: right;
+	margin-right:10px;
+}
+.hotlesson-left .greedy2 .greedy-bottom .time {
+	margin-left: 10px;
+	font-size：13px;
+}
+
+.hotlesson-left .tag-l {
+	position: absolute;
+	top:50%;
+	margin-top:-30px;
+	left: 0;
+	height: 60px;
+	width: 30px;
+	background-color:rgba(0,0,0,.1);
+	border-radius:6px;
+	color:#fff;
+	text-align:center;
+	line-height: 60px;
+	font-size:30px;
+}
+.hotlesson-left .tag-r {
+	position: absolute;
+	top:50%;
+	margin-top:-30px;
+	right: 0;
+	height: 60px;
+	width: 30px;
+	background-color:rgba(0,0,0,.1);
+	border-radius:6px;
+	color:#fff;
+	text-align:center;
+	line-height: 60px;
+	font-size:30px;
+}
+.hotlesson-right {
+	float: right;
+	width: 492px;
+	height: 316px;
+	background-color:#fff;
+	border-radius:6px;
+}
+.hotlesson-right .news {
+	width: 207px;
+	height: 316px;
+	float: left;
+	overflow:hidden;
+}
+.hotlesson-right .news h2 {
+	margin-top:32px;
+	margin-left:50px;
+}
+.hotlesson-right .news img {
+	width:122px;
+	height:185px;
+	margin-left:50px;
+	padding-top:38px;
+}
+.hotlesson-right .annotation h2 {
+	margin-left:6px;
+	margin-top: 32px;
+	color:#4BAA47;
+}
+.hotlesson-right .annotation .wire {
+	width: 67px;
+	height: 2px;
+	background-color:#4BAA47;
+	position:absolute;
+	top:53px;
+	left: 209px;
+}
+.hotlesson-right .annotation ul {
+	margin-top: 8px;
+	line-height: 40px;
+	font-size:13px;	
+}
+.hotlesson-right .annotation ul li {
+	width: 197px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.hotlesson-right .annotation i {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background-color:#4BAA47;
+	border-radius:5px;
+	right: 288px;
+}
+.hotlesson-right .annotation .one {
+	top:74px;
+}
+.hotlesson-right .annotation .two {
+	top:115px;
+}
+.hotlesson-right .annotation .three {
+	top:155px;
+}
+.hotlesson-right .annotation .four {
+	top:195px;
+}
+.hotlesson-right .annotation .five {
+	top:235px;
+}
+.hotlesson-right .annotation .six {
+	top:275px;
+}
+.obtain {
+	height: 319px;
+}
+.obtain h2 {
+	line-height: 59px;
+    font-size:18px;
+}
+.obtain h2 span {
+	font-size:13px;
+}
+.obtain .web a {
+	float: left;
+	width: 590px;
+	height: 120px;
+	border-radius:6px;
+	background:url(../img/web就业班.png);
+	text-align:center;
+}
+.obtain .web span,
+.obtain .web2 span,
+.obtain .anz span {
+	display:block;
+	margin-top:68px;
+	color: #fff;
+	font-weight:bold;
+	font-size:25px;
+}
+.obtain .web2 a {
+	margin-left:10px;
+	float: left;
+	width: 290px;
+	height: 120px;
+	border-radius:6px;
+	background:url(../img/全栈工程师.png);
+	text-align:center;
+}
+.obtain .anz a {
+	margin-left:10px;
+	float: left;
+	width: 290px;
+	height: 120px;
+	border-radius:6px;
+	background:url(../img/安卓.png);
+	text-align:center;
+}
+.obtain .web3 a,
+.obtain .anz1 a {
+	margin-right:10px;
+	float: left;
+	width: 290px;
+	height: 120px;
+	border-radius:6px;
+	background:url(../img/全栈工程师.png);
+	text-align:center;
+}
+.obtain .web3 span,
+.obtain .web4 span,
+.obtain .anz1 span {
+	display:block;
+	margin-top:68px;
+	color: #fff;
+	font-weight:bold;
+	font-size:25px;
+}
+.obtain .web4 a {
+	/* margin-left:10px; */
+	float: left;
+	width: 590px;
+	height: 120px;
+	border-radius:6px;
+	background:url(../img/javaweb.png);
+	text-align:center;
+}
+
+.obtain .web3 a,
+.obtain .web4 a,
+.obtain .anz1 a {
+	margin-top: 10px;
+}
+.footer {
+	height: 269px;
+	width: 100%;
+	background-color: #2C333F;
+}
+.footer .shoulder {
+	height: 181px;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+}
+.footer .shoulder-left {
+	float: left;
+	width: 421px;
+}
+.footer .shoulder span {
+	width: 421px;
+	display: block;
+}
+.footer .shoulder-left h2,
+.footer .shoulder-right h2{
+	margin-top:19px;
+	line-height: 53px;
+	font-size: 21px;
+}
+.footer .shoulder-left span {
+	line-height: 22px;
+	font-size: 14px;
+}
+.footer .shoulder-mid {
+	float: left;
+	width: 264px;
+}
+.footer .shoulder-mid h2 {
+	margin-top:19px;
+	margin-left: 59px;
+	line-height: 53px;
+	font-size: 21px;
+}
+.footer .shoulder-mid ul {
+	margin-top: 4px;
+	margin-left: 59px;
+}
+.footer .shoulder-mid li {
+	float: left;
+	margin-right:25px;
+}
+.footer .shoulder-right {
+	float: left;
+	width: 505px;
+}
+.footer .shoulder-right .first {
+	margin-top: 4px;
+}	
+.footer .shoulder-right .first li {
+	float: left;
+	margin-right: 39px;
+}
+.footer .shoulder-right .first li:last-child {
+	margin:0;
+}
+.footer .shoulder-right  li a {
+	font-size: 13px;
+	color: #fff;
+}
+.footer .shoulder-right .last li {
+	float: left;
+	margin-right:36px;
+}
+.footer .shoulder-right .last li a {
+	line-height: 43px;
+}
+.footer .shoulder-right span a{
+	font-size: 13px;
+	color: #fff;
+}
+.footer .over {
+	position: relative;
+	text-align: center;
+	height: 88px;
+	color: #fff;
+	overflow: hidden;
+}
+.footer .over ul {
+	margin-left: 453px;
+}
+.footer .over li {
+	float: left;
+	margin-top: 2px;
+	line-height: 46px;
+}
+.footer .over li a {
+	color: #fff;
+}
+.footer .over .line {
+	margin-right: 16px;
+	margin-left: 16px;
+}
+.footer .over span {
+	position: absolute;
+	top:48px;
+	left:291px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.father {
+			width: 290px;
+			height: 55px;
+			background-color: red;
+			position: relative;
+		}
+		.father span:first-child {
+			position: absolute;
+			top:25px;
+			font-size: 13px;
+			color: #fff;
+		}
+		.father span:last-child {
+			position: absolute;
+			left: 199px;
+			top:25px;
+			font-size: 13px;
+			color: #fff;
+		}
+		.one,
+		.two,
+		.three {
+			position: absolute;
+			top:10px;
+			height: 37px;
+			width: 35px;
+			background-color: rgba(0,0,0,.7);
+			font-size: 19px;
+			line-height: 37px;
+			color: red;
+			text-align: center;
+			border-radius:4px;
+		}
+		.dian,
+		.dian2,
+		.dian3,
+		.dian4 {
+			position: absolute;
+			height: 5px;
+			width: 5px;
+			border-radius:50%;
+			background-color: #000;
+
+		}
+		.dian {
+			left: 101px;
+			top:22px;
+		}
+		.dian2 {
+			left: 101px;
+			top:30px;
+		}
+		.dian3 {
+			left: 148px;
+			top:22px;
+		}
+		.dian4 {
+			left: 148px;
+			top:30px;
+		}
+		.two {
+			left: 110px;
+		}
+		.one {
+			left: 62px;			
+		}
+		.three {
+			left: 159px;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<span>当前场次</span>
+		<div class="one">66</div>
+		<div class="dian"></div>
+		<div class="dian2"></div>
+		<div class="two">66</div>
+		<div class="dian3"></div>
+		<div class="dian4"></div>
+		<div class="three">66</div>
+		<span>后结束抢购</span>
+	</div>
+</body>
+</html>
