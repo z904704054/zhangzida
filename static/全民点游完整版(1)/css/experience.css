@@ -1,0 +1,247 @@
+/*����ģʽ��������ʼ*/
+.center {
+    width: 1200px;
+    margin:0 auto;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 999999;
+    left:0px;
+    top:0px;
+    background-color: #fff;
+    /*margin-bottom: 80px;*/
+}
+.header .header-left {
+    width:300px;
+    height:80px;
+
+    float:left;
+}
+.header .header-left a {
+    margin-top:15px;
+    display: block;
+}
+
+.header .header-right {
+    width: 570px;
+    float: right;
+}
+.header .header-right li{
+    height: 80px;
+    line-height: 80px;
+    padding: 0px 14px 0px 14px;
+    margin-left: 56px;
+    cursor: pointer;
+    float: left;
+}
+.header .header-right li.current{
+    border-top:3px solid rgb(4,169,255);
+}
+.header .header-right li:hover a{
+
+    color:rgb(4,169,255);
+
+}
+/*.header .header-right li:first-child {*/
+
+/*}*/
+/*.header .header-right li:first-child a {*/
+    /*color: rgb(4,169,255);*/
+/*}*/
+.header .header-right li a {
+    font-size: 18px;
+}
+/*头部样式结束 */
+.game-coop {
+    height: 842px;
+    overflow: hidden;
+    background: #fff url(../images/phone/cooper_bg.png) no-repeat;
+}
+.game-coop div > p {
+    height: 245px;
+    line-height: 215px;
+    font-size: 35px;
+    color:#2BACF4;
+    text-align: center;
+}
+.game-coop li {
+    float: left;
+    width: 186px;
+    /*height: 478px;*/
+    margin-right: 67px;
+    position: relative;
+}
+.game-coop li p {
+    font-size: 20px;
+    /*color:#2BACF4;*/
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+}
+.game-coop li a {
+    display: block;
+    font-size: 18px;
+    width: 94px;
+    height: 34px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding-left: 12px;
+    margin: 0 auto;
+    line-height: 34px;
+    background:url("../images/phone/code_icron.png") no-repeat 62px center;
+}
+.game-coop li .bg-bottom {
+    display: none;
+    position: absolute;
+    left: 7px;
+    top: 35px;
+    width: 173px;
+    height: 305px;
+    background-color: rgba(0,0,0,0.7);
+}
+.game-coop li .bg {
+    display: none;
+    position: absolute;
+    left: 17px;
+    top: 113px;
+}
+.game-coop li .bg img{
+    width: 150px;
+    height: 150px;
+}
+.game-coop li:hover .bg,
+.game-coop li:hover .bg-bottom{
+    display: block;
+}
+.game-coop li:hover a{
+    background-color: #2BACF4;
+}
+.game-coop li:hover p{
+    color:#2BACF4;
+}
+.game-coop li:last-child {
+    margin-right: 0;
+}
+/*����ģʽ����������*/
+/*������ϷС����������ʼ*/
+.game-experience {
+    height: 720px;
+}
+.game-experience p {
+    height: 226px;
+    line-height: 216px;
+    font-size: 36px;
+    text-align: center;
+    color:#2BACF4;
+}
+.game-experience .game-con {
+    height: 510px;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid #2BACF4;
+}
+.game-experience .game-con .game-con-lunbo {
+    width: 2400px;
+    position: absolute;
+    overflow: hidden;
+}
+.game-experience .game-con ul {
+    float: left;
+    height: 510px;
+    width: 1200px;
+}
+.game-experience .game-con ul li {
+    width: 110px;
+    height: 197px;
+    float: left;
+    margin-left: 54px;
+    margin-top: 40px;
+    position: relative;
+}
+.game-experience .game-con ul li p {
+    font-size: 16px;
+    line-height: 48px;
+    height: 51px;
+    text-align: center;
+}
+.game-experience .game-con li p span {
+    color:#FD2B00;
+    margin-left: 8px;
+}
+.game-experience .game-con li a {
+    display: block;
+    width: 104px;
+    height: 34px;
+    line-height: 34px;
+    border:1px solid #ccc;
+    font-size: 18px;
+    padding-left: 10px;
+    background: url("../images/game_list/code_icron.png") no-repeat  74px center;
+}
+.game-experience .game-con li .hover {
+    display: none;
+    width: 110px;
+    height: 197px;
+    background-color: #F1F0F0;
+    padding:20px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+.game-experience .game-con li .hover p {
+    font-size: 16px;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+}
+.game-experience .game-con li .hover a {
+    display: block;
+    width: 106px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    padding-left:10px;
+    background: url(../images/game_list/code_icron.png) no-repeat 75px center;
+    background-color: #2BACF4;
+    color:#fff;
+}
+
+.game-experience .game-con li:hover .hover {
+    display: block;
+}
+.game-experience .game-exper-arrow {
+    display : none;
+}
+.game-experience .game-experiencew {
+    position: relative;
+}
+.game-experience .game-exper-arrow span#game-exper-arrLeft {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 27px;
+    height: 124px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 28px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.game-experience .game-exper-arrow span#game-exper-arrRight {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 27px;
+    height: 124px;
+    line-height: 124px;
+    text-align: center;
+    font-size: 28px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    cursor:pointer;
+}
+/*������ϷС������������*/

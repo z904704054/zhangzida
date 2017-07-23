@@ -1,0 +1,161 @@
+.index_service{
+    background-color: #ededed;
+    padding: 62px 0px 70px 0px;
+}
+.midd_con{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.index_service .midd_con .title1 {
+    color: #2bacf6;
+    font-size: 36px;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+    margin: auto;
+}
+.index_service .midd_con .title2 {
+    color: #2bacf6;
+    font-size: 36px;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei";
+    margin: auto;
+}
+.index_service .midd_con .title1{
+    margin-left: 416px;
+}
+.index_service .midd_con .title2{
+    margin-left: 478px;
+}
+.index_service ul {
+    margin-top: 70px;
+}
+.index_service ul  li {
+    cursor: pointer;
+    float:left;
+    background-color: #ffffff;
+    width: 213px;
+    height: 384px;
+    /* height: 400px; *//* box-sizing: border-box;-webkit-box-sizing: border-box;-o-box-sizing: border-box;-ms-box-sizing: border-box; */
+    padding:14px 28px 0px 28px;
+    text-align: center;
+    margin-right: 31px;
+    transition: transform .8s linear;
+}
+.index_service ul  li:hover{
+    transform:scale(1.2,1.2);
+    border:9px solid #fff0bf;
+    border-radius: 8px;
+    height:366px;
+    padding:14px 19px 0px 19px;
+}
+.index_service ul  li  p.title{
+    font-size: 22px;
+    color: #2686f2;
+    text-align: center;
+    margin: 16px 0px 12px 0px;
+}
+.index_service ul  li  p.con{
+    font-size: 16px;
+    color: #6c6c6c;
+    text-align: left;
+    line-height: 26px;
+}
+.index_cus{
+    background-color: #FFFFFF;
+    padding: 68px 0px 110px 0px;
+}
+.index_cus p{
+    font-size: 36px;;
+    color: #2bacf6;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+.index_cus .wrap{
+    height: 278px;
+    background: url(../images/cus_director.png) no-repeat center 140px;
+    margin-top: 120px;
+}
+.index_cus ul{
+    width: 1370px;
+    height: 278px;
+    position: relative;
+}
+.index_cus ul  li {
+    float: left;
+    height: 278px;
+    width: 274px;
+    text-align: center;
+    cursor: pointer;
+}
+.index_cus ul  li  p {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 16px;
+}
+.index_cus ul  li  .ellipse{
+    text-align: center;
+    margin-top: 25px;
+}
+.index_cus ul  li  .figure{
+    text-align: center;
+    margin-top: 40px;
+}
+.gaod{
+    height: 53px;
+}
+.index_cus .sdk_bold{
+    position: absolute;
+    width: 262px;height: 428px;
+}
+.index_cus .bold {
+    padding-top: 152px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 262px;
+    height: 428px;
+    z-index: 10;
+}
+.index_cus .bold.sdk_bold {
+    left: 0px;
+    top: -74px;
+}
+.index_cus .bold.gun_bold{
+    left:274px;
+    top:-74px;
+}
+.index_cus .bold.floor_bold{
+    left:548px;
+    top:-74px;
+}
+.index_cus .bold.api_bold{
+    left:822px;
+    top:-74px;
+}
+.index_cus .bold.ding_bold{
+    left:1069px;
+    top:-74px;
+}
+.index_cus .bold.sdk_bold{
+    background:url(../images/index_cus/cus_sdk_bg.png) no-repeat;
+}
+.index_cus .bold.gun_bold{
+    background:url(../images/index_cus/cus_gun_bg.png) no-repeat;
+}
+.index_cus .bold.floor_bold{
+    background:url(../images/index_cus/cus_floor_bg.png) no-repeat;
+}
+.index_cus .bold.api_bold{
+    background:url(../images/index_cus/cus_bold_bg.png) no-repeat;
+}
+.index_cus .bold.ding_bold{
+    background:url(../images/index_cus/cus_ding_bg.png) no-repeat;
+}
+.index_cus .wrap ul li div{
+    display: block;
+}
+.nn .bold p {
+    color:white;
+}
+

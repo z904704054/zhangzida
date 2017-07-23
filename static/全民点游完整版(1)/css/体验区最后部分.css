@@ -1,0 +1,162 @@
+.experience-activity {
+    height: 560px;
+    background-image: url("../images/expriance/exprince_zong_bgpng.png");
+}
+
+.experience-activity p {
+    font-size: 35px;
+    color: #2BACF6;
+    text-align: center;
+    line-height: 215px;
+}
+.activity {
+    height: 280px;
+}
+.activity ul li {
+    float: left;
+    margin-right: 54px;
+
+}
+.activity ul li:hover {
+    cursor:pointer;
+
+}
+.activity ul li:hover .box {
+    display:block;
+}
+
+
+
+
+.activity ul li:last-child {
+    float: right;
+    margin-right: 0px;
+}
+.activity ul li .text {
+    height: 75px;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 52px;
+}
+.activity ul {
+    position: relative;
+}
+.activity ul li .box {
+    display: none;
+}
+.activity ul li .box .text1 {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 52px;
+    position: absolute;
+    top: 205px;
+    left: 0px;
+}
+.activity .us,
+.us1,
+.us2 {
+    height: 280px;
+    width: 364px;
+    background-color:#289CDF;
+    opacity: .8;
+    position: absolute;
+    top: 0px;
+}
+.activity .us {
+    position: absolute;
+    left: 0px;
+
+}
+.activity .us1 {
+    position: absolute;
+    left: 418px;
+
+}
+.activity .us2 {
+    position: absolute;
+    right: 0px;
+
+}
+
+.activity .us2 img {
+    position: absolute;
+    top: 24px;
+    left: 125px;
+}
+.activity .us1 img {
+    position: absolute;
+    top: 24px;
+    left: 125px;
+}
+.activity .us img {
+    position: absolute;
+    top: 24px;
+    left: 125px;
+}
+
+.pic {
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 160px;
+    left: 137px;
+}
+
+
+
+
+
+
+
+
+.experience-last {
+    height: 180px;
+    background-color: #2BACF6;
+    overflow: hidden;
+
+}
+.experience-last ul li {
+    float: left;
+    margin-top: 45px;
+    margin-left: 222px;
+}
+.experience-last .experience-last-text {
+    height: 30px;
+    width: 115px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.experience-last .experience-last-text:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.experience-last .experience-last-text:hover {
+    cursor: pointer;
+}
+.experience-last p {
+    font-size: 16px;
+    line-height: 46px;
+    margin-top: 140px;
+    text-align: center;;
+
+}
+
+
+
+
+
+
+
+
+
+
